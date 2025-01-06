@@ -41,7 +41,7 @@
             paths.projectRoot = ./.;
             # can be changed to ".git" or "flake.nix" to get rid of .project-root
             paths.projectRootFile = "flake.nix";
-            paths.package = ./.;
+            paths.package = ./src;
           }
         ];
       };
@@ -52,7 +52,7 @@
         inputsFrom = [self.packages.${system}.default.devShell];
         # add extra packages
         packages = [
-          # nixpkgs.legacyPackages.${system}.hello
+          nixpkgs.legacyPackages.${system}.hello
         ];
       };
     });
