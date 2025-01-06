@@ -25,7 +25,7 @@
 
   buildPythonPackage = {
     pythonImportsCheck = [
-      "my_tool"
+      "blackbird"
     ];
   };
 }
