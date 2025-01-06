@@ -75,4 +75,4 @@
  requires      = ["setuptools"]
 
  [project.scripts]
-  blackbird = "blackbird:main"
+  blackbird = "blackbird"

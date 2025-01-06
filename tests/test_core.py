@@ -6,13 +6,13 @@ from rich.console import Console
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", "src"))
 
 import config
-from src.modules.core.username import verifyUsername
-from src.modules.core.email import verifyEmail
-from src.modules.export.csv import saveToCsv
-from src.modules.export.pdf import saveToPdf
-from src.modules.utils.userAgent import getRandomUserAgent
+from blackbird.modules.core.username import verifyUsername
+from blackbird.modules.core.email import verifyEmail
+from blackbird.modules.export.csv import saveToCsv
+from blackbird.modules.export.pdf import saveToPdf
+from blackbird.modules.utils.userAgent import getRandomUserAgent
 from datetime import datetime
-from src.modules.whatsmyname.list_operations import checkUpdates
+from blackbird.modules.whatsmyname.list_operations import checkUpdates
 
 config.no_nsfw = None
 config.proxy = None

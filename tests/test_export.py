@@ -7,9 +7,9 @@ from rich.console import Console
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", "src"))
 
 import config
-from src.modules.export.csv import saveToCsv
-from src.modules.export.pdf import saveToPdf
-from src.modules.export.file_operations import createSaveDirectory
+from blackbird.modules.export.csv import saveToCsv
+from blackbird.modules.export.pdf import saveToPdf
+from blackbird.modules.export.file_operations import createSaveDirectory
 from datetime import datetime
 
 config.console = Console()
