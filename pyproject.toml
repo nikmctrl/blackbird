@@ -44,7 +44,7 @@
   "python-dotenv==1.0.1",
   "reportlab==4.1.0",
   "requests==2.31.0",
-  "rich==13.7.1",
+  "rich==13.9.4",
   "shellingham==1.5.4",
   "smart-open==7.0.5",
   "soupsieve==2.6",
@@ -75,4 +75,4 @@
  requires      = ["setuptools"]
 
  [project.scripts]
-  blackbird = "src.__init__:initiate"
+  blackbird = "blackbird:main"
